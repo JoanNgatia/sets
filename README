@@ -1,0 +1,5 @@
+sets
+
+The repository contains a function that will be used to work on sets, 
+along with the jasmine tests to confirm the efficient working of the
+function.
