@@ -22,6 +22,17 @@ Set.prototype.diff = function(a){            //deletes specific element from the
     });
 };
 
+Set.prototype.show = function() {          //shows members of the set
+    return this.input;
+};
+
+Set.prototype.isEmpty = function (){       //checks if given set is empty
+    if (this.input.length < 0) {
+    return true;
+    }
+    return false;
+};
+
 Set.prototype.keepIf = function(a){           //retains values within the set that are divisible by 2
     var temp = new set();
     for (var i = 0; i < this.length; i++){
