@@ -19,6 +19,7 @@ describe("set functions", function() {
   
   it("checks for subset", function() {
     var x = new Set([4, 8, 10, 12]);
-    expect(x.subset([4, 8, 10, 20, 35, 12])).toBe (true);
+    expect(x.subset([4, 8, 10, 20, 35, 12])).toBe(true);
+    expect(x.subset([30, 40])).toBe(false);
   });
 });
