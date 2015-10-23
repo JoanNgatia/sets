@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='style.css' />
+    <title>Set Operations</title>+
+    <script  src= '../sets_operations/setsOperator.js' type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Set Operations</h1>
+        <p>Numbers or objects when grouped together, make up a set.Each member is called an element of the set and all members are unique. A set of numbers is thus depicted as <code>{10, 20, 30}</code>.The algebraic treatment of set operations leads to boolean algebra, in which the operations of intersection, union, and difference are interpreted as corresponding to the logical operations "and," "or," and "not," respectively, useful in SQL and other applications.
+        </p>
+    </div>
+    <div class="intro">
+        <h2>Perform different operations on your sets</h2>
+        <h3>Enter the sets to work on</h3>
+        <p>Kindly enter numbers separated by commas</p>
+        <script>
+        var x;
+        var b;
+        console.log(x);
+
+        </script>
+        <form>
+            <input type="text" id="SetA" placeholder="Set A">
+            <input type="text" id="setB" placeholder="Set B">
+            <div><button id="union1" onclick="javascript:setA.union(SetB):">Union</button></div>
+            <div><button id="intersection1" onclick="javascript:SetA.intersection(SetB):">Intersection</button></div>
+            <div><button id="complement1" onclick="javascript:SetA.complement(SetB):">Complement</button></div>
+            <div><button id="subset1" onclick="javascript:SetA.subset(SetB):">Subset</button></div>
+            <p id="demo"></p>
+        </form>
+    </div>
+</body>
+
+</html>
